@@ -13,7 +13,7 @@ public class TestCase1 {
     @Test
     public void Setup() {
 
-        System.setProperty("webdriver,chomee.driver",System.getProperty("user.dir") + "\\Drivers\\chromedriver.exe");
+        driver=new ChromeDriver();System.setProperty("webdriver,chomee.driver",System.getProperty("user.dir") + "\\Drivers\\chromedriver.exe");
 
         driver=new ChromeDriver();
 
